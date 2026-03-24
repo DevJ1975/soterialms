@@ -1,0 +1,29 @@
+// =============================================================================
+// Soteria LMS — SCSS Variables (loaded BEFORE Boost compiles)
+// Override Bootstrap/Boost variables here.
+// =============================================================================
+
+// Brand colours
+$soteria-primary:    #1A3A5C;   // Deep navy
+$soteria-accent:     #E8A020;   // Safety amber
+$soteria-success:    #2E7D32;   // Compliance green
+$soteria-danger:     #C62828;   // Alert red
+$soteria-light:      #F4F6F9;   // Page background
+$soteria-dark:       #0F1E2D;   // Dark nav
+
+// Bootstrap overrides (consumed by Boost's SCSS pipeline)
+$primary:            $soteria-primary;
+$success:            $soteria-success;
+$danger:             $soteria-danger;
+$body-bg:            $soteria-light;
+$navbar-dark-bg:     $soteria-dark;
+
+// Typography
+$font-family-sans-serif: 'Inter', 'Segoe UI', Arial, sans-serif;
+$headings-font-weight:   600;
+$font-size-base:         0.9375rem;  // 15px
+
+// Rounded elements
+$border-radius:          6px;
+$border-radius-lg:       8px;
+$card-border-radius:     10px;
